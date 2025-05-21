@@ -31,6 +31,7 @@ public class App {
             }
             System.out.println(board);
         }
+        scanner.close();
         System.out.println("GameResult: " + ruleEngine.getState(board));
     }
 }
